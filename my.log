@@ -355,3 +355,225 @@ ValueError: The view ingredients.views.recommend didn't return an HttpResponse o
 2022-11-15 11:31:04,076 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\models.py changed, reloading.
 2022-11-15 11:31:56,325 - root - INFO - ================ recommend
 2022-11-15 11:31:56,333 - root - INFO - recommending.....
+2022-11-15 11:56:56,309 - root - INFO - ================ recommend
+2022-11-15 11:56:56,344 - root - INFO - recommending.....
+2022-11-15 11:58:27,330 - root - INFO - ================ recommend
+2022-11-15 11:58:27,355 - root - INFO - recommending.....
+2022-11-15 11:58:34,142 - root - INFO - ================ recommend
+2022-11-15 11:58:34,425 - django.request - ERROR - Internal Server Error: /ingredients/recipe_list/
+Traceback (most recent call last):
+  File "C:\Users\user\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\user\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\gitpro\project\project03\ingredients\views.py", line 99, in recommend
+    'ingredients/recipe_list.html',{'recipe_list':recipe_list, "posts": posts,'keywords': keyword})
+UnboundLocalError: local variable 'recipe_list' referenced before assignment
+2022-11-15 11:58:38,152 - root - INFO - ================ recommend
+2022-11-15 11:58:38,192 - django.request - ERROR - Internal Server Error: /ingredients/recipe_list/
+Traceback (most recent call last):
+  File "C:\Users\user\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\user\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\gitpro\project\project03\ingredients\views.py", line 99, in recommend
+    'ingredients/recipe_list.html',{'recipe_list':recipe_list, "posts": posts,'keywords': keyword})
+UnboundLocalError: local variable 'recipe_list' referenced before assignment
+2022-11-15 13:49:16,885 - django.request - WARNING - Not Found: /
+2022-11-15 13:49:17,128 - django.request - WARNING - Not Found: /favicon.ico
+2022-11-15 13:49:54,421 - root - INFO - ================ recommend
+2022-11-15 13:49:54,458 - root - INFO - recommending.....
+2022-11-15 13:49:54,476 - root - INFO - recommending.....
+2022-11-15 13:50:50,259 - root - INFO - ================ recommend
+2022-11-15 13:50:50,288 - root - INFO - recommending.....
+2022-11-15 13:50:50,314 - root - INFO - recommending.....
+2022-11-15 13:52:17,360 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 13:52:41,881 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 13:52:49,047 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:03:49,516 - django.request - WARNING - Not Found: /
+2022-11-15 14:03:59,355 - root - INFO - ================ recommend
+2022-11-15 14:03:59,361 - root - INFO - recommending.....
+2022-11-15 14:03:59,366 - root - INFO - recommending.....
+2022-11-15 14:06:27,311 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:11:19,973 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:11:54,451 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:12:23,384 - root - INFO - ================ recommend
+2022-11-15 14:12:23,393 - root - INFO - recommending.....
+2022-11-15 14:12:23,398 - root - INFO - recommending.....
+2022-11-15 14:13:07,935 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:13:20,410 - root - INFO - ================ recommend
+2022-11-15 14:13:20,416 - root - INFO - recommending.....
+2022-11-15 14:13:20,421 - root - INFO - recommending.....
+2022-11-15 14:16:06,332 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:17:32,886 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:18:00,659 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:18:13,034 - root - INFO - ================ recommend
+2022-11-15 14:18:13,041 - root - INFO - recommending.....
+2022-11-15 14:18:13,044 - root - INFO - recommending.....
+2022-11-15 14:18:23,424 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:21:09,018 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:21:18,487 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:24:31,740 - root - INFO - ================ recommend
+2022-11-15 14:24:31,746 - root - INFO - recommending.....
+2022-11-15 14:24:31,750 - root - INFO - recommending.....
+2022-11-15 14:26:42,584 - root - INFO - ================ recommend
+2022-11-15 14:26:42,589 - root - INFO - recommending.....
+2022-11-15 14:26:42,593 - root - INFO - recommending.....
+2022-11-15 14:27:50,634 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:27:58,369 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:28:04,848 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:29:01,382 - root - INFO - ================ recommend
+2022-11-15 14:30:05,204 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:30:11,883 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:30:22,212 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:30:39,385 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:30:52,533 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:31:13,296 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:31:30,706 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:31:37,141 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:33:34,002 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:35:47,469 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:35:56,742 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:36:03,076 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:36:18,832 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:38:04,693 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:38:10,544 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:38:31,837 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:38:41,106 - root - INFO - ================ recommend
+2022-11-15 14:38:41,572 - django.request - ERROR - Internal Server Error: /ingredients/recipe_list/
+Traceback (most recent call last):
+  File "C:\Users\user\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\user\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\gitpro\project\project03\ingredients\views.py", line 87, in recommend
+    list.append.keyword[idx]
+AttributeError: 'builtin_function_or_method' object has no attribute 'keyword'
+2022-11-15 14:39:01,531 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:39:17,042 - root - INFO - ================ recommend
+2022-11-15 14:39:17,247 - django.request - ERROR - Internal Server Error: /ingredients/recipe_list/
+Traceback (most recent call last):
+  File "C:\Users\user\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\user\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\gitpro\project\project03\ingredients\views.py", line 87, in recommend
+    list.append.keyword[idx]
+AttributeError: 'builtin_function_or_method' object has no attribute 'keyword'
+2022-11-15 14:39:47,634 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:39:56,923 - root - INFO - ================ recommend
+2022-11-15 14:40:18,494 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:40:25,590 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:40:33,952 - root - INFO - ================ recommend
+2022-11-15 14:41:22,900 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:41:50,899 - root - INFO - ================ recommend
+2022-11-15 14:42:29,466 - root - INFO - ================ recommend
+2022-11-15 14:42:48,669 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:42:56,456 - root - INFO - ================ recommend
+2022-11-15 14:52:32,019 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:53:18,057 - root - INFO - ================ recommend
+2022-11-15 14:53:32,719 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:53:38,892 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:54:57,254 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 14:55:22,091 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:02:24,528 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:02:41,014 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:03:07,429 - root - INFO - ================ recommend
+2022-11-15 15:03:07,433 - root - INFO - recommending.....
+2022-11-15 15:03:07,435 - root - INFO - recommending.....
+2022-11-15 15:03:38,263 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:03:56,182 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:06:51,250 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:07:48,621 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:07:59,721 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:08:10,754 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:08:19,482 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:09:22,045 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:09:33,970 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:09:42,255 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:10:09,392 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:10:44,308 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:11:02,187 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:11:25,236 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:11:52,083 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:12:46,613 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:13:12,772 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:14:26,419 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:14:41,870 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:14:55,652 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:15:04,106 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:15:12,811 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:15:31,155 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:15:42,188 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:16:33,798 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:16:43,178 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:16:55,440 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:17:09,573 - django.request - WARNING - Not Found: /ingredients/recipe_list/index.html
+2022-11-15 15:17:19,363 - root - INFO - ================ recommend
+2022-11-15 15:17:19,368 - root - INFO - [<Q: (AND: ('rc_ing__icontains', '대파'))>]
+2022-11-15 15:17:19,715 - django.request - ERROR - Internal Server Error: /ingredients/recipe_list/
+Traceback (most recent call last):
+  File "C:\Users\user\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\user\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\gitpro\project\project03\ingredients\views.py", line 96, in recommend
+    recipe_list = recipe_list.filter(reduce(operator.and_, q_list))
+UnboundLocalError: local variable 'recipe_list' referenced before assignment
+2022-11-15 15:17:50,077 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:18:02,149 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:18:08,047 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:18:14,234 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:18:22,344 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:18:37,078 - root - INFO - ================ recommend
+2022-11-15 15:18:37,087 - root - INFO - [<Q: (AND: ('rc_ing__icontains', '대파'))>, <Q: (AND: ('rc_ing__icontains', '당근'))>]
+2022-11-15 15:18:37,324 - django.request - ERROR - Internal Server Error: /ingredients/recipe_list/
+Traceback (most recent call last):
+  File "C:\Users\user\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\user\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\gitpro\project\project03\ingredients\views.py", line 98, in recommend
+    recipe_list = recipe_list.filter(reduce(operator.and_, q_list))
+NameError: name 'reduce' is not defined
+2022-11-15 15:21:37,758 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:21:49,080 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:22:05,290 - root - INFO - ================ recommend
+2022-11-15 15:22:05,298 - root - INFO - [<Q: (AND: ('rc_ing__icontains', '대파'))>, <Q: (AND: ('rc_ing__icontains', '당근'))>]
+2022-11-15 15:22:39,506 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:22:49,915 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:23:48,592 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:25:23,550 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:25:33,625 - root - INFO - ================ recommend
+2022-11-15 15:25:33,633 - root - INFO - [<Q: (AND: ('rc_ing__icontains', '대파'))>, <Q: (AND: ('rc_ing__icontains', '당근'))>]
+2022-11-15 15:25:53,823 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:26:02,153 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:26:13,291 - root - INFO - ================ recommend
+2022-11-15 15:26:13,298 - root - INFO - [<Q: (AND: ('rc_ing__icontains', '대파'))>, <Q: (AND: ('rc_ing__icontains', '당근'))>]
+2022-11-15 15:26:27,108 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:27:12,272 - root - INFO - ================ recommend
+2022-11-15 15:27:12,282 - root - INFO - [<Q: (AND: ('rc_ing__icontains', '대파'))>, <Q: (AND: ('rc_ing__icontains', '당근'))>]
+2022-11-15 15:27:30,373 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:27:36,959 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:27:43,251 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:27:49,943 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:28:00,927 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:28:11,761 - root - INFO - ================ recommend
+2022-11-15 15:28:11,766 - root - INFO - [<Q: (AND: ('rc_ing__icontains', '대파'))>, <Q: (AND: ('rc_ing__icontains', '당근'))>]
+2022-11-15 15:29:01,851 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:29:12,998 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
+2022-11-15 15:29:21,513 - root - INFO - ================ recommend
+2022-11-15 15:29:21,521 - root - INFO - [<Q: (AND: ('rc_ing__icontains', '대파'))>, <Q: (AND: ('rc_ing__icontains', '당근'))>]
+2022-11-15 15:30:04,158 - django.utils.autoreload - INFO - C:\gitpro\project\project03\ingredients\views.py changed, reloading.
